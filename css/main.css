@@ -1,22 +1,35 @@
-.content {
-    margin: 2em 10em;
-}
-
 h1 {
-    color: #193B40;
+    color: whitesmoke;
 }
 
 .navbar {
-    background-color: #4AB1BF;
-    border-bottom: solid 2px #BF1A12;
+    /*background-color: #4E83B9;*/
     border-radius: 0;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
+    /*border-bottom: solid 2px #7F4D2C;*/
+    border-width: 0;
+    margin-bottom: 0;
 }
 
+/*
 .navbar-default .navbar-nav > li > a {
-    color: #193B40;
+    color: whitesmoke;
+}
+
+.navbar-default .navbar-brand {
+    color: whitesmoke;
+}
+*/
+.banner {
+    background: url("../img/banner-trans.png") no-repeat;
+    background-size: 50%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.content {
+    margin: 2em 10em;
+    padding-bottom: 5em;
+
 }
 
 
@@ -24,20 +37,21 @@ h1 {
 html {
     min-height: 100%;
     position: relative;
+
 }
 body {
     margin-bottom: 60px;
     min-height: 10em;
-    color: #32767F;
+    color: rgba(78, 193, 255, 0.69);
+    background-image: url("../img/1680x1050.jpg");
 }
 .footer {
-    background-color: #4AB1BF;
+    background-color: #F8F8F8;
     color: #193B40;
     bottom: 0;
     height: 60px;
     position: absolute;
     width: 100%;
-    border-top: solid #BF1A12 2px;
 }
 .container {
     max-width: 680px;
