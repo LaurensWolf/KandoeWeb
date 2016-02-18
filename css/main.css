@@ -1,5 +1,5 @@
 h1 {
-    color: whitesmoke;
+    color: rgba(78, 193, 255, 0.69);
 }
 
 .navbar {
@@ -8,17 +8,15 @@ h1 {
     /*border-bottom: solid 2px #7F4D2C;*/
     border-width: 0;
     margin-bottom: 0;
+    background: transparent;
 }
-
-/*
 .navbar-default .navbar-nav > li > a {
-    color: whitesmoke;
+    color: #F8F8F8;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: rgba(78, 193, 255, 0.69);
 }
 
-.navbar-default .navbar-brand {
-    color: whitesmoke;
-}
-*/
 .banner {
     background: url("../img/banner-trans.png") no-repeat;
     background-size: 50%;
@@ -42,8 +40,8 @@ html {
 body {
     margin-bottom: 60px;
     min-height: 10em;
-    color: rgba(78, 193, 255, 0.69);
-    background-image: url("../img/1680x1050.jpg");
+    color: #F8F8F8;
+    background-image: url("../img/Melamine-wood-004.png");
 }
 .footer {
     background-color: #F8F8F8;
