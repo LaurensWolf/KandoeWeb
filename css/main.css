@@ -3,18 +3,41 @@ h1 {
 }
 
 .navbar {
-    /*background-color: #4E83B9;*/
+    background-color: #4E83B9;
     border-radius: 0;
     /*border-bottom: solid 2px #7F4D2C;*/
     border-width: 0;
     margin-bottom: 0;
-    background: transparent;
+    /*background: transparent;*/
 }
 .navbar-default .navbar-nav > li > a {
     color: #F8F8F8;
 }
-.navbar-default .navbar-nav > li > a:hover {
-    color: rgba(78, 193, 255, 0.69);
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background: rgba(78, 193, 255, 0.69);
+    color: #F8F8F8;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: rgba(78, 193, 255, 0.69);
+    color: #F8F8F8;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background: rgba(78, 193, 255, 0.69);
+    color: #F8F8F8;
+}
+.dropdown-menu {
+    background-color: #4E83B9;
+}
+.dropdown-menu > li > a {
+    color: #F8F8F8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F8F8F8;
 }
 
 .banner {
@@ -30,8 +53,7 @@ h1 {
 
 }
 
-
-/*Sticky footer*/
+/*----------------Sticky footer----------------------------------*/
 html {
     min-height: 100%;
     position: relative;
@@ -40,12 +62,13 @@ html {
 body {
     margin-bottom: 60px;
     min-height: 10em;
-    color: #F8F8F8;
-    background-image: url("../img/Melamine-wood-004.png");
+    color: #193B40;
+    /*color: #F8F8F8;*/
+    /*background-image: url("../img/Melamine-wood-004.png");*/
+    background-color: #F8F8F8;
 }
 .footer {
-    background-color: #F8F8F8;
-    color: #193B40;
+    background-color: #4985B9;
     bottom: 0;
     height: 60px;
     position: absolute;
@@ -58,6 +81,6 @@ body {
 }
 .container .text-muted {
     margin: 20px 0;
-    color: #193B40;
+    color: whitesmoke;
 }
 
